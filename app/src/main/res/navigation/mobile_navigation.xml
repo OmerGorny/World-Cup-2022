@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_games">
+
+
+
+    <fragment
+        android:id="@+id/nav_rule"
+        android:name="com.example.guesses_final_project.ui.gallery.RulesFragment"
+        android:label="Rules"
+        tools:layout="@layout/fragment_rules" />
+    <fragment
+        android:id="@+id/nav_games"
+        android:name="com.example.guesses_final_project.ui.home.GamesFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_games" />
+    <fragment
+        android:id="@+id/nav_leader"
+        android:name="com.example.guesses_final_project.ui.leaderboard.LeaderFragment"
+        android:label="Leaderboard"
+        tools:layout="@layout/fragment_leader" />
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.guesses_final_project.ui.profile.ProfileFragment"
+        android:label="@string/menu_profile"
+        tools:layout="@layout/fragment_profile"
+        />
+
+
+
+
+</navigation>

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/score_board3">
+
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="40dp"
+            android:background="@color/row_table"
+            android:text="00/00/2022"
+            android:textColor="#000	"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/ic_baseline_home_24"></ImageView>
+
+        <TextView
+            android:id="@+id/hour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="45dp"
+            android:background="@color/row_table"
+            android:text="00:00"
+            android:textColor="#000	"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+
+        <ImageButton
+            android:id="@+id/arrow_up_TeamRight"
+            android:layout_width="40dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="35dp"
+            android:layout_marginBottom="13dp"
+            android:src="@drawable/arrow_up"></ImageButton>
+
+        <ImageButton
+            android:id="@+id/arrow_down_TeamRight"
+            android:layout_width="40dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="13dp"
+            android:src="@drawable/arrow_down"></ImageButton>
+
+        <ImageButton
+            android:id="@+id/arrow_down_TeamLeft"
+            android:layout_width="40dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="13dp"
+            android:layout_marginRight="35dp"
+            android:src="@drawable/arrow_down"></ImageButton>
+
+        <ImageButton
+            android:id="@+id/arrow_up_TeamLeft"
+            android:layout_width="40dp"
+            android:layout_height="17dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="35dp"
+            android:layout_marginBottom="13dp"
+            android:src="@drawable/arrow_up"></ImageButton>
+
+
+        <TextView
+
+            android:id="@+id/txt_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="-"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+
+            android:id="@+id/txt_score_teamLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="13dp"
+            android:text="0"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+
+            android:id="@+id/txt_score_teamRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="13dp"
+            android:text="0"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/teamRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="95dp"
+
+            android:layout_marginRight="51dp"
+            android:text="Team Right"
+
+
+            android:textColor="#000	"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/teamLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="95dp"
+            android:text="Team Left"
+            android:textColor="#000	"
+            android:textSize="15dp" />
+
+        <ImageView
+            android:id="@+id/imageRight"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+
+
+            android:layout_gravity="right"
+            android:layout_marginTop="74dp"
+            android:src="@drawable/ecuadorflag"
+
+            ></ImageView>
+
+        <ImageView
+            android:id="@+id/imageLeft"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="left"
+            android:layout_marginTop="74dp"
+            android:src="@drawable/netherland_flag"></ImageView>
+
+
+        <!--        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_marginTop="125dp"-->
+        <!--            android:gravity="center"-->
+        <!--            android:orientation="horizontal">-->
+
+        <!--            <RadioButton-->
+        <!--                android:id="@+id/rightTeam"-->
+        <!--                android:layout_width="wrap_content"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:text="Right"-->
+        <!--                android:textColor="@color/white"-->
+
+        <!--                android:textStyle="bold" />-->
+        <!--            &lt;!&ndash;                android:onClick="onRadioButtonClicked"&ndash;&gt;-->
+
+        <!--            <RadioButton-->
+        <!--                android:id="@+id/tie"-->
+        <!--                android:layout_width="wrap_content"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:layout_marginLeft="10dp"-->
+        <!--                android:layout_marginRight="10dp"-->
+        <!--                android:text="Tie"-->
+        <!--                android:textColor="@color/white"-->
+        <!--                android:textStyle="bold" />-->
+        <!--            &lt;!&ndash;                android:onClick="onRadioButtonClicked"&ndash;&gt;-->
+        <!--            <RadioButton-->
+        <!--                android:id="@+id/leftTeam"-->
+        <!--                android:layout_width="wrap_content"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:text="Left"-->
+        <!--                android:textColor="@color/white"-->
+        <!--                android:textStyle="bold" />-->
+        <!--            &lt;!&ndash;                android:onClick="onRadioButtonClicked"&ndash;&gt;-->
+        <!--        </RadioGroup>-->
+
+        <Button
+            android:id="@+id/btnList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="80dp"
+            android:text="send"></Button>
+
+
+    </FrameLayout>
+
+</RelativeLayout>

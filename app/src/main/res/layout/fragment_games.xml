@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    tools:context=".ui.home.GamesFragment">
+
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+
+
+        android:layout_centerHorizontal="true"
+
+        android:background="@drawable/title3">
+
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="113dp"
+            android:src="@drawable/icon"
+
+            ></ImageView>
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Games"
+            android:textColor="@color/black"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+        <ImageButton
+            android:id="@+id/btnOpenNavBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="65dp"
+            android:src="@drawable/ic_baseline_arrow_circle_left_24"
+            ></ImageButton>
+    </FrameLayout>
+
+
+    <ListView
+        android:id="@+id/listViewGames"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="105dp"
+
+
+        android:layout_weight="1.5"
+        android:divider="@color/black"
+        android:dividerHeight="3dp"
+
+        android:listSelector="@drawable/score_back2" />
+
+
+
+</FrameLayout>

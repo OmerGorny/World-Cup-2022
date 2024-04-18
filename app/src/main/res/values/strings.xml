@@ -1,0 +1,98 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">BeterThenYou</string>
+
+
+    <string name="fb_login_protocol_scheme">fb1234</string>
+    <string name="facebook_client_token">56789</string>
+
+
+
+    <string name="insert_email">Insert Email...</string>
+    <string name="insert_full_name">Insert NickName...</string>
+    <string name="insert_phone_number">Insert Phone Number...</string>
+    <string name="insert_password">Insert Password...</string>
+    <string name="insert_repassword">Insert RePassword...</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Games</string>
+    <string name="menu_gallery">Wordle</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_profile">Profile</string>
+
+    <string-array name="player" >
+
+        <item>Robert Lewandowski</item>
+        <item>Leo Messi</item>
+        <item>Cristiano Ronaldo</item>
+        <item>Kylian Mbappe</item>
+        <item>Karim Benzema</item>
+        <item>Harry Kane</item>
+        <item>Thomas Muller</item>
+        <item>Kai Havartz</item>
+        <item>Neymar</item>
+        <item>Gabriel Jesus</item>
+        <item>Raphinha</item>
+        <item>Vinícius Júnior</item>
+        <item>Ferran Torres</item>
+        <item>Ansu Fati</item>
+        <item>Gavi </item>
+        <item>Marcos Rashford</item>
+        <item>Son Heung-min</item>
+        <item>Sadio mane</item>
+        <item>Jack grealish</item>
+        <item>Memphis Depay</item>
+        <item>Olivier Giroud</item>
+        <item>Kevin De Bruyne</item>
+        <item>Romelu Lukaku</item>
+        <item>Jonathan David</item>
+        <item>Achraf Hakimi</item>
+        <item>Rodrygo</item>
+        <item>Mason Mount</item>
+        <item>Phil Foden</item>
+
+    </string-array>
+
+    <string-array name="countrys">
+
+        <item>France</item>
+        <item>Brazil</item>
+        <item>Denmark</item>
+        <item>Tunisia</item>
+        <item>Australia</item>
+        <item>Argentina</item>
+        <item>Saudi Arabia</item>
+        <item>Mexico</item>
+        <item>Poland</item>
+        <item>England</item>
+        <item>Iran</item>
+        <item>USA</item>
+        <item>Wales</item>
+        <item>Qatar</item>
+        <item>Ecuador</item>
+        <item>Senegal</item>
+        <item>Netherlands</item>
+        <item>Portugal</item>
+        <item>Ghana</item>
+        <item>Uruguay</item>
+        <item>South Korea</item>
+        <item>Serbia</item>
+        <item>Switzerland</item>
+        <item>Cameroon</item>
+        <item>Belgium</item>
+        <item>Canada</item>
+        <item>Morocco</item>
+        <item>Croatia</item>
+        <item>Spain</item>
+        <item>Costa Rica</item>
+        <item>Germany</item>
+        <item>Japan</item>
+    </string-array>
+
+
+</resources>
